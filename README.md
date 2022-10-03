@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# ⛈ProjetoPrevisãodoTempo-ReactJs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <br><h2>📄 Explicação
 
-## Available Scripts
+Projeto desenvolvido no intuito de fins acadêmicos, práticas para domínio de consumir API dentro do ReactjS, manipulação de renderização de tela, utilização Weather API, Hook useState, gerenciador de pacotes Yarn, npm. Consiste em uma interface simples, aonde pode pesquisar a cidade desejada, renderizando na tela o País, Temperatura, Umidade.
+  
+ <br> 🚀 deploy da aplicação: https://cheery-daifuku-4387a0.netlify.app/
 
-In the project directory, you can run:
 
-### `npm start`
+<br><h2>📁 Páginas
+<p>O site tem no total 1 página, sendo ela:
+<p>Página principal: A página principal consiste em uma interface com input para colocar a cidade
+<br>🎯 Etapas
+<br>✔️ Desenvolver a interaface com a biblioteca ReactJs.
+<br>✔️ Consumir API.
+<br>✔️ Adicionar o evento de clique ao teclar no botão para que seja pego os valores no servidor e feita a requisição.
+<br>✔️ Renderização de tela.
+<br>✔️ Organizar as informações retornadas pela requisição em objetos para poder manipular facilmente os dados.
+<br>
+  <br>
+ > Resultado do projeto Previsão do tempo.
+  <br>
+  
+![Api-clima](https://user-images.githubusercontent.com/97356148/192657874-329a28b4-5f17-45cb-8aff-8930943c3781.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>🛠 Tecnologias, bibliotecas, gerenciadores:
+<br><h3>Biblioteca ReactJs
+<br><h3>Linguagem JavaScript
+<br><h3>Yarn
+<br><h3>NPM
+<br><h3>API OpenWeather
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🤝 Colaborador
 
-### `npm run build`
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://user-images.githubusercontent.com/97356148/192656802-5a792531-2020-4d55-a5bb-11ac8cee1bb1.JPG" width="100px;" alt="Foto Yasmim Ferreira Costa"/><br>
+        <sub>
+          <b>Yasmim Ferreira Costa</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📝 Licença
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-### `npm run eject`
+[⬆ Voltar ao topo](#ProjetoPrevisãodoTempo-ReactJs)<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
