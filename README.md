@@ -4,7 +4,7 @@
 
 Projeto desenvolvido no intuito de fins acadêmicos, práticas para domínio de consumir API dentro do ReactjS, manipulação de renderização de tela, utilização Weather API, Hook useState, gerenciador de pacotes Yarn, npm. Consiste em uma interface simples, aonde pode pesquisar a cidade desejada, renderizando na tela o País, Temperatura, Umidade.
   
- <br> 🚀 deploy da aplicação: https://cheery-daifuku-4387a0.netlify.app/
+ <br> 🚀 deploy da aplicação: 
 
 
 <br><h2>📁 Páginas
@@ -21,7 +21,7 @@ Projeto desenvolvido no intuito de fins acadêmicos, práticas para domínio de 
  > Resultado do projeto Previsão do tempo.
   <br>
   
-![Api-clima](https://user-images.githubusercontent.com/97356148/192657874-329a28b4-5f17-45cb-8aff-8930943c3781.png)
+
 
 
 <h2>🛠 Tecnologias, bibliotecas, gerenciadores:
