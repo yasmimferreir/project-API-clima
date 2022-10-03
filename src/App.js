@@ -1,4 +1,8 @@
 import { useState } from "react";
+import "./styles.css";
+import { TbSearch } from "react-icons/tb";
+import vetor from "../src/assets/vetor.png";
+import home from "../src/assets/home.png"
 
 function App() {
   //variável de guardar valor = city
@@ -15,7 +19,7 @@ function App() {
   //
   const handleSearch = () => {
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=22c54fd0267f8ac797057389aee685ed&lang=pt`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=22c54fd0267f8ac797057389aee685ed&lang=pt&units=metric`
     )
       .then((response) => {
         if (response.status === 200) {
@@ -26,22 +30,22 @@ function App() {
         console.log(data);
         setweatherForecast(data);
       });
+
+      //toFixed()
   };
 
   return (
-    <div>
-      <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-        <a className="navbar-brand text-white" href="#top">
-          Previsão do tempo
+    <div className="container">
+      <nav className="navbar">
+        <a className="navbar-brand" href="#top">
+          Previsão meteorológica
         </a>
       </nav>
 
-      <main className="container">
-        <div className="jumbotron">
-          <h1> Verifique a previsão do tempo da sua cidade em tempo real</h1>
+      <img className="vetor" src={vetor} alt="" />
 
-          <p className="lead">Digite o nome da sua cidade abaixo:</p>
-
+      <main className="container-box">
+        <div className="title">
           <div className="row mb-4">
             <div className="col-md-6">
               <input
@@ -53,15 +57,17 @@ function App() {
           </div>
 
           <button onClick={handleSearch} className="btn btn-primary btn-lg">
-            Pesquisar
+            <TbSearch className="search"  />
           </button>
-
+       
           {weatherForecast ? (
             <div className="mt-5">
-              <div>
+              <img className="imgcloud" src={home} alt=""/>
+              <div className="content-box">
+                <p>Clima esta : {weatherForecast.weather[0].description }</p>
                 <p>País: {weatherForecast.sys.country}</p>
-                <p>Temperatura: {weatherForecast.main.temp}</p>
-                <p>Umidade: {weatherForecast.main.humidity}</p>
+                <p>Temperatura: {weatherForecast.main.temp.toFixed() + "º" } </p>
+                <p>Umidade: {weatherForecast.main.humidity + "%"}</p>
               </div>
             </div>
           ) : null}

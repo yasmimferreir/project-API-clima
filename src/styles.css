@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #d1dee5;
+    font-family: 'Overpass', sans-serif;
+  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.navbar-brand {
+    position: absolute;
+    width: 389px;
+    height: 68px;
+    left: 47px;
+    top: 80px;
+}
+
+a {
+    position: absolute;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 56px;
+    color: #0093D1;
+    text-shadow: -4px 8px 50px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.vetor {
+    display: flex;
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+button {
+    position: absolute;
+    top: 14rem;
+    left: 12rem;
+    border: none;
+    background-color: #f0f7ff;
+}
+
+.search {
+    position: absolute;
+    background-color: #f0f7ff;
+    top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input {
+    position: absolute;
+    width: 220px;
+    height: 32.45px;
+    left: 17.08px;
+    top: 14rem;
+    border: none;
+    background: #f0f7ff;
+    box-shadow: inset 1.13852px -1.70778px 3.41555px rgba(0, 0, 0, 0.1), inset -3.41555px 2.27703px 2.27703px rgba(255, 255, 255, 0.1);
+    border-radius: 8.53888px;
+    text-align: center;
+}
+
+.mt-5 {
+    position: absolute;
+    width: 45rem;
+    height: 340px;
+    top: 17rem;
+    left: -14rem;
+    background: #49a2f3;
+    box-shadow: -3.77069px 7.54137px 30.1655px 2.26241px rgba(19, 35, 78, 0.2);
+    border-radius: 10.4879px;  
+}
+
+.imgcloud {
+    position: relative;
+    left: 200px;
+    background-color: #49a2f3;
+}
+
+.content-box {
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 160px;
+    left: 13rem;
+    border-radius: 15px 15px 15px 15px;  
+}
+
+.content-box p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color: #0093D1;
+    text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);  
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .navbar-brand {
+        position: absolute;
+        width: 209px;
+        left: 14rem;
+    }
+
+    .mt-5 {
+        position: absolute;
+        width: 45rem;
+        height: 440px;
+    }
+
+    .content-box {
+        display: block;
+        position: absolute;
+        width: 300px;
+        height: 160px;
+        left: 13rem;
+        border-radius: 15px 15px 15px 15px;  
+    }
+
+    a {
+       font-size:xx-large;
+    }
+    
+    input {
+        width: 220px;
+        height: 40px; 
+    }
+
+    .vetor {
+       align-items: center;
+       justify-content: center;
+        top: 15rem;
+        left: 90px;
+    }
+    
+    .content-box p {
+        font-size:large;
+    }
+
+}
